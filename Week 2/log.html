@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="log.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!--side bar-->
+      <aside>
+        <div class="sidebar">
+          <div class="dashboard_name">
+            <i class="bx bxs-devices"></i>
+            <span class="dashboard_title">Divice Manager</span>
+          </div>
+          <ul class="nav_link">
+            <li>
+              <a href="dashboard.html">
+                <i class="bx bxs-dashboard"></i>
+                <span class="link_name">Dashboard</span>
+              </a>
+            </li>
+            <li class="active">
+              <a href="log.html">
+                <i class="bx bx-log-in-circle"></i>
+                <span class="link_name active-content">Logs</span>
+              </a>
+            </li>
+            <li>
+              <a href="'#">
+                <i class="bx bxs-cog"></i>
+                <span class="link_name">Settings</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <div class="main_board">
+        <nav>
+          <i class="bx bxs-user-circle"></i>
+          <span class="user_name">Welcome John</span>
+        </nav>
+        <div class="home_content">
+          <div class="log_header">
+            <a href="log.html">Action Logs</a>
+            <div class="search">
+              <input class="input search_name" type="text" placeholder="Name" />
+              <button class="search_button">Search</button>
+            </div>
+          </div>
+          <div class="device_table">
+            <table class="board">
+              <thead>
+                <tr>
+                  <td class="first_column">Device ID#</td>
+                  <td>Name</td>
+                  <td>Action</td>
+                  <td>Date</td>
+                </tr>
+              </thead>
+              <tbody class="devices_record"></tbody>
+            </table>
+          </div>
+          <div class="pagination"></div>
+        </div>
+      </div>
+    </div>
+    <script src="log.js"></script>
+  </body>
+</html>
