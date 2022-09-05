@@ -1,0 +1,13 @@
+export const SET_PRICENAME_INPUT = "set_pricename_input";
+export const SET_PRIORITY_INPUT = "set_priority_input";
+export const SET_STATUS_INPUT = "set_status_input";
+export const SET_PRODUCT_INPUT = "set_product_input";
+export const OPEN_PRODUCT_PICKER = "open_product_picker";
+export const CLOSE_PRODUCT_PICKER = "close_product_picker";
+export const DISPLAY_SELECTED_PRODUCTS = "display_selected_products";
+export const DELETE_SELECTED_PRODUCTS = "delete_selected_products";
+export const DISPLAY_SELECTED_COLLECTIONS = "display_selected_collections";
+export const SET_COLLECTION_DATA = "set_collection_data";
+export const UPDATE_COLLECTION_DATA = "update_collection_data";
+export const DISPLAY_SELECTED_TAGS = "display_selected_tags";
+export const UPDATE_SELECTED_TAGS = "update_selected_tags";
